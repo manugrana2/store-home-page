@@ -34,6 +34,12 @@ nav li{
     padding: 5px;
     border-left: #F1FAEE solid 1px;
 }
+nav li:hover{
+    display: inline-block;
+    padding: 5px;
+    border-left: #F1FAEE solid 1px;
+    background-color: #38557e;
+}
 nav li a{
     text-decoration: none;
     color: #F1FAEE;
@@ -97,6 +103,15 @@ section article{
     cursor:pointer;
     float: right;
     background-color: #1D3557;
+    color: #F1FAEE;
+
+}
+.featured article .buy-btn:hover{
+    padding: 10px;
+    align-self: flex-start;
+    cursor:pointer;
+    float: right;
+    background-color: #38557e;
     color: #F1FAEE;
 
 }
