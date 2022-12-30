@@ -1,0 +1,121 @@
+
+body{
+    background-color: #F1FAEE;
+    font-family:'Poiret One';
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+h1{
+    font-size: 3rem;
+}
+h2{
+    font-size: 1.2rem;
+}
+
+header > img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+}
+
+nav ul{
+    list-style: none;
+    text-align: center;
+    background-color: #1D3557;
+    padding: 5px;
+}
+
+nav li{
+    display: inline-block;
+    padding: 5px;
+    border-left: #F1FAEE solid 1px;
+}
+nav li a{
+    text-decoration: none;
+    color: #F1FAEE;
+}
+
+section{
+    display: flex;
+}
+section article{
+    flex:1;
+}
+
+.banner{
+    text-align: center;
+    color: #E63946;
+    background-image: url(https://i.ibb.co/3hLKLkM/banner.png);
+    font-weight: bold;
+    background-size: cover;
+    text-shadow: #F1FAEE 0rem 1px 2px;
+    
+}
+.banner-info{
+    color: #F1FAEE;
+    font-size: 1.5rem;
+    text-align: left;
+    margin-left: 10%;
+    text-shadow: #1D3557 0rem 1px 2px;
+
+}
+.banner-text{
+    color: #F1FAEE;
+    text-align: left;
+    margin-left: 10%;
+    text-shadow: #1D3557 0rem 1px 2px;
+
+}
+
+.featured{
+    gap: 10px;
+    margin-top: 1rem;
+    color: #1D3557;
+}
+.featured article{
+    background-color: #e9eee7;
+    padding: 1rem;
+    border-radius: 10px;
+}
+.featured img{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    max-height: 200px;
+    border-radius: 0.2rem;
+    display: block;
+    margin-bottom: 10px;
+    position: relative;
+}
+.featured article .buy-btn{
+    padding: 10px;
+    align-self: flex-start;
+    cursor:pointer;
+    float: right;
+    background-color: #1D3557;
+    color: #F1FAEE;
+
+}
+
+footer{
+    display: flex;
+    
+    
+}
+footer div{
+    flex: 1;
+    
+    
+}
+footer img{
+    width: 200px;
+    margin-top: 20px;
+}
+
+footer div.copyright{
+    display: contents;
+}
